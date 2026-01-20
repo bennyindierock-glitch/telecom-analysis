@@ -30,48 +30,71 @@ Registra el uso de los servicios por parte de los usuarios, incluyendo llamadas,
 
 Exploración inicial de los datos
 
-Revisión de estructura, tipos de datos y dimensiones.
+  Revisión de estructura, tipos de datos y dimensiones.
 
-Identificación de columnas clave y consistencia de la información.
+  Identificación de columnas clave y consistencia de la información.
 
 Análisis y tratamiento de valores nulos
 
-Identificación de columnas con alta proporción de valores faltantes.
+  Identificación de columnas con alta proporción de valores faltantes.
 
-Justificación para conservar o excluir variables según su relevancia.
+  Justificación para conservar o excluir variables según su relevancia.
 
-Clasificación de valores faltantes bajo el patrón MAR (Missing At Random).
+  Clasificación de valores faltantes bajo el patrón MAR (Missing At Random).
 
 Detección y manejo de valores inválidos
+ 
+  Identificación de sentinelas como edades con valor -999.
 
-Identificación de sentinelas como edades con valor -999.
+  Evaluación de valores cero en variables de uso.
 
-Evaluación de valores cero en variables de uso.
-
-Propuesta de winsorización para mejorar la calidad del análisis.
+  Propuesta de winsorización para mejorar la calidad del análisis.
 
 Estandarización de formatos
 
-Conversión de columnas a formatos correctos (fechas y numéricos).
+  Conversión de columnas a formatos correctos (fechas y numéricos).
 
-Verificación de fechas irreales o futuras.
+  Verificación de fechas irreales o futuras.
 
 Segmentación de usuarios
 
-Segmentación por rango de edad.
+  Segmentación por rango de edad.
 
-Segmentación por nivel de uso (bajo, medio y alto).
+  Segmentación por nivel de uso (bajo, medio y alto).
 
 Análisis descriptivo
 
-Comparación de llamadas y mensajes por grupos de edad.
+  Comparación de llamadas y mensajes por grupos de edad.
 
-Identificación de patrones homogéneos de comportamiento.
+  Identificación de patrones homogéneos de comportamiento.
 
-Análisis de outliers como usuarios de alto consumo.
+  Análisis de outliers como usuarios de alto consumo.
 
 Conclusiones y recomendaciones
+  
+  Interpretación de resultados desde una perspectiva de negocio.
 
-Interpretación de resultados desde una perspectiva de negocio.
+  Propuestas para estrategias de retención y atracción de clientes.
 
-Propuestas para estrategias de retención y atracción de clientes.
+
+Ejecuta el notebook en Google Colab
+
+1. Abre Google Colab.
+
+2. Selecciona File > Open notebook.
+
+3. Carga el archivo .ipynb desde tu computadora o directamente desde un repositorio de GitHub.
+
+4. Sube los archivos plans.csv, users.csv y usage.csv al entorno de Colab.
+
+5. Ejecuta las celdas en el orden en que aparecen en el notebook.
+
+
+
+🔁 Guía breve de reproducción
+
+Carga los tres datasets en el entorno de trabajo, despues ejecuta las secciones de exploración inicial y limpieza de datos.
+
+Revisa las transformaciones aplicadas a valores nulos, sentinelas y formatos.
+
+Ejecuta los bloques de segmentación y análisis descriptivo, por ultimo, analiza las visualizaciones, conclusiones y recomendaciones finales.
