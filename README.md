@@ -1,4 +1,6 @@
 📊 Análisis de Clientes y Patrones de Uso Telefónico
+
+
 🧠 Objetivo del Proyecto
 
 El objetivo de este proyecto es analizar el comportamiento de los clientes de una empresa de telecomunicaciones a partir de información demográfica y de uso, con el fin de:
