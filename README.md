@@ -28,13 +28,13 @@ Registra el uso de los servicios por parte de los usuarios, incluyendo llamadas,
 
 🔍 Etapas del Análisis Realizadas
 
-Exploración inicial de los datos
+1. Exploración inicial de los datos
 
   Revisión de estructura, tipos de datos y dimensiones.
 
   Identificación de columnas clave y consistencia de la información.
 
-Análisis y tratamiento de valores nulos
+2. Análisis y tratamiento de valores nulos
 
   Identificación de columnas con alta proporción de valores faltantes.
 
@@ -42,7 +42,7 @@ Análisis y tratamiento de valores nulos
 
   Clasificación de valores faltantes bajo el patrón MAR (Missing At Random).
 
-Detección y manejo de valores inválidos
+3. Detección y manejo de valores inválidos
  
   Identificación de sentinelas como edades con valor -999.
 
@@ -50,19 +50,19 @@ Detección y manejo de valores inválidos
 
   Propuesta de winsorización para mejorar la calidad del análisis.
 
-Estandarización de formatos
+4. Estandarización de formatos
 
   Conversión de columnas a formatos correctos (fechas y numéricos).
 
   Verificación de fechas irreales o futuras.
 
-Segmentación de usuarios
+5. Segmentación de usuarios
 
   Segmentación por rango de edad.
 
   Segmentación por nivel de uso (bajo, medio y alto).
 
-Análisis descriptivo
+6. Análisis descriptivo
 
   Comparación de llamadas y mensajes por grupos de edad.
 
@@ -70,14 +70,14 @@ Análisis descriptivo
 
   Análisis de outliers como usuarios de alto consumo.
 
-Conclusiones y recomendaciones
+7. Conclusiones y recomendaciones
   
   Interpretación de resultados desde una perspectiva de negocio.
 
   Propuestas para estrategias de retención y atracción de clientes.
 
 
-Ejecuta el notebook en Google Colab
+8.Ejecuta el notebook en Google Colab
 
 1. Abre Google Colab.
 
@@ -91,7 +91,7 @@ Ejecuta el notebook en Google Colab
 
 
 
-🔁 Guía breve de reproducción
+9. Guía breve de reproducción
 
 Carga los tres datasets en el entorno de trabajo, despues ejecuta las secciones de exploración inicial y limpieza de datos.
 
